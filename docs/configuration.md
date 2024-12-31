@@ -32,8 +32,7 @@
   - [HTML](#html)
 
 ## Intro
-Configuration is done via a single YAML file and a server restart is required in order for any changes to take effect. Trying to start the server with an invalid config file will result in an error.
-
+Configuration is done via a single YAML file and a server restart is required in order for any changes to take effect. Trying to start the server with an invalid config file will result in an error. [YAMLINT](https://www.yamllint.com/) is a very helpful tool for validating the config files.
 ## Preconfigured page
 If you don't want to spend time reading through all the available configuration options and just want something to get you going quickly you can use the following `glance.yml` and make changes as you see fit:
 
